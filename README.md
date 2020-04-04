@@ -36,7 +36,7 @@ It can be easily pulled and run using the following commands:
    user@somehost 2> docker run -it roccocarbone/hacca:latest
 ```
 
-![impatients]
+![impatiens]
 
 # What is hacca?
 
@@ -78,7 +78,7 @@ It can be easily pulled and run using the following commands:
 
 
 [logo]:       images/hacca.png
-[impatients]: images/impatients.png
+[impatiens]:  images/impatiens.png
 [helloworld]: images/helloworld.png
 [help]:       images/help.png
 [connect]:    images/connect.png
