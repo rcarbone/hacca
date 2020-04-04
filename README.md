@@ -2,15 +2,11 @@
 
 hacca is a C implementation of HL7 Services and Protocols to connect medical equipments, middlewares and laboratory systems over TCP/IPv4 networks.
 
-hacca supports creation, parsing and transmission of HL7 Messages over TCP/Iv4 networks accordingly to HL7 international standards.
-
 [hacca] includes a lot of software modules:
 
- * libhacca - a C library for creating/packing/unpacking HL7 Segments/Messages and transmitting them over IPv4 Networks.
-
-   It is implemented as a library of ANSI C language functions enabling C-written applications to establish, use and release multiple connections
-   with peer applications for the purpose to exchange HL7 Messages in a network end-system architecture based on the TCP/IP Protocols.
-
+ * libhacca - a C library to enable C-written applications to establish, use and release multiple connections with peer applications
+              for the purpose to exchange HL7 Messages/Segments in a network end-system architecture based on the TCP/IP Protocols
+              accordingly to HL7 international standards.
 
  * h7sh - The first HL7 shell for Linux Systems
 
