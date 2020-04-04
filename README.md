@@ -1,6 +1,4 @@
-<p align="center">
-  ![logo]
-</p>
+![logo]
 
 hacca - C implementation of HL7 Standard Protocols
 ==========================================================
@@ -23,7 +21,7 @@ hacca - C implementation of HL7 Standard Protocols
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 ```
 
-# Dockerhub for impatients
+# Docker container for impatients
 
 If you are impatient and not interested in the full story, here is the download button for a docker image with **hacca** distribution in an interactive container based on GNU/Debian bullseye-slim (to be minimalist!):
 ```
@@ -38,10 +36,7 @@ It can be easily pulled and run using the following commands:
    user@somehost 2> docker run -it roccocarbone/hacca:latest
 ```
 
-<p align="center">
-  ![impatients]
-</p>
-
+![impatients]
 
 # What is hacca?
 
