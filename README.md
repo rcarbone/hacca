@@ -32,8 +32,29 @@ The container is interactive, meaning that the Docker-CLI will talk directly wit
 
 It can be easily pulled and run using the following commands:
 ```
-   user@somehost 1> docker pull roccocarbone/hacca:latest
-   user@somehost 2> docker run -it roccocarbone/hacca:latest
+   user@somehost 1> docker pull roccocarbone/hacca
+   Using default tag: latest
+   latest: Pulling from roccocarbone/hacca
+   5eabfc6d6a4a: Already exists 
+   6ec95c643500: Pull complete 
+   d7e56adc47fd: Pull complete 
+   526bdb63b662: Pull complete 
+   Digest: sha256:11f4d98b3802a3b9425d7e5052c154636a276fcd88a846c47215756068c50c78
+   Status: Downloaded newer image for roccocarbone/hacca:latest
+   docker.io/roccocarbone/hacca:latest
+
+   user@somehost 2> docker docker image ls
+   REPOSITORY           TAG                 IMAGE ID            CREATED             SIZE
+   roccocarbone/hacca   latest              0c9a22834923        6 minutes ago       129MB
+
+   user@somehost 3> docker run -it roccocarbone/hacca
+
+   -- h7sh 0.1.0 (Apr  4 2020) -- R. Carbone (rocco@tecsiel.it)
+   A hack of the popular 'tcsh' with builtin extensions for HL7 Protocol
+
+   Type 'help' for the list of builtin extensions implemented by this shell.
+
+   h7sh 1> 
 ```
 
 ![impatiens]
